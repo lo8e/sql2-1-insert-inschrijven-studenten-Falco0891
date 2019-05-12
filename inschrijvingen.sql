@@ -1,8 +1,4 @@
 USE lo8e_sql2;
-INSERT INTO klassen_studenten
-(ov_nummer, klas_code)
-VALUES
-(90001,'lo9e-amo1'),
-(90002,'lo9e-amo3'),
-(90003,'lo9e-amo1'),
-(90004,'lo9e-amo2');
+UPDATE studenten
+SET geboortedatum="2001-2-9"
+WHERE voornaam = "chong";
